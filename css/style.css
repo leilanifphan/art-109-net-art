@@ -110,7 +110,7 @@ header {
 .main {
     background: url(../imgs/bedroom-bg.jpg) no-repeat;
     background-size: cover;
-    display: flex;
+    display: fixed;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -131,7 +131,9 @@ header {
     padding: 50px;
     border-style: outset;
     border-radius: 10px;
-    position: relative;
+    position: fixed;
+    top: 35%;
+    left: 35%;
 }
 
 .close-btn {
