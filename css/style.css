@@ -237,8 +237,8 @@ header {
 
 #smiski-push {
     position: fixed;
-    top: 865px;
-    right: 1525px;
+    top: 66%;
+    right: 59.6%;
     width: 93px; 
     height: auto;
     cursor: pointer;
@@ -264,8 +264,8 @@ header {
 
 .smiski-push-text {
     position: fixed;
-    top: 700px;
-    right: 1700px;
+    top: 57%;
+    right: 66%;
     width: 250px;
     background: rgb(255,255,255,0.9);
     border-radius: 8px;
