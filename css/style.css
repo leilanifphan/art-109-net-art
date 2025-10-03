@@ -163,6 +163,30 @@ header {
 }
 
 
+
+/* Unified small text for smiski popups: only affect <p> inside the popup boxes */
+.smiski-text p {
+    font-size: 1.2rem; /* ~12px assuming 1rem = 10px */
+    text-align: left;
+    margin: 0.4rem 0;
+    line-height: 1.4;
+}
+
+
+
+
+/* Headings inside smiski popups: only target h3 elements and center them */
+.smiski-text h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
+}
+
+
+
+
+
 #smiski-book {
     position: fixed;
     top: 310px;
@@ -262,18 +286,3 @@ header {
     display: block;
 }
 
-/* Unified small text for smiski popups: only affect <p> inside the popup boxes */
-.smiski-text p {
-    font-size: 1.2rem; /* ~12px assuming 1rem = 10px */
-    text-align: left;
-    margin: 0.4rem 0;
-    line-height: 1.4;
-}
-
-/* Headings inside smiski popups: only target h3 elements and center them */
-.smiski-text h3 {
-    font-size: 1.6rem;
-    text-align: center;
-    margin-top: 0.2rem;
-    margin-bottom: 0.6rem;
-}
