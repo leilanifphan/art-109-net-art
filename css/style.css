@@ -48,7 +48,7 @@ header {
 }
 
 .instructions-btn {
-    color:white;
+    color: white;
     position: static;
     margin-left: 16px;
     width: 30px;
@@ -84,7 +84,7 @@ header {
 }
 
 .shelf-btn {
-    color:white;
+    color: white;
     position: fixed;
     top: 25px;
     right: 25px;
@@ -165,7 +165,7 @@ header {
 
 
 .smiski-text p {
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
     text-align: center;
     margin: 0.4rem 0;
     line-height: 1.4;
@@ -181,109 +181,281 @@ header {
 
 
 
+/* SMISKI BOOK*/
+@media {
+    #smiski-book {
+        position: fixed;
+        top: 23.5%;
+        right: 43%;
+        width: 30px;
+        height: auto;
+        cursor: pointer;
+        transition: transform 120ms ease;
+    }
 
-#smiski-book {
-    position: fixed;
-    top: 23.5%;
-    right: 43%;
-    width: 30px; 
-    height: auto;
-    cursor: pointer;
-    transition: transform 120ms ease;
+    #smiski-book:hover {
+        transform: translateY(-3px);
+        scale: 1.1;
+    }
+
+    /* popup for smiski book */
+    .smiski-book {
+        position: relative;
+        display: inline-block;
+    }
+
+    #smiski-book-pfp {
+        width: 135px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .smiski-book-text {
+        position: fixed;
+        top: 20%;
+        right: 46%;
+        width: 250px;
+        background: rgb(255, 255, 255, 0.9);
+        border-radius: 8px;
+        padding: 14px 16px;
+        display: none;
+    }
+
+    .smiski-book-text .close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    .smiski-book.open .smiski-book-text {
+        display: block;
+    }
 }
 
-#smiski-book:hover {
-    transform: translateY(-3px);
-    scale: 1.1;
+
+/* SMISKI PUSH*/
+@media {
+    #smiski-push {
+        position: fixed;
+        top: 66%;
+        right: 59.6%;
+        width: 93px;
+        height: auto;
+        cursor: pointer;
+        transition: transform 120ms ease;
+    }
+
+    #smiski-push:hover {
+        transform: translateY(-3px);
+        scale: 1.1;
+    }
+
+    /* popup for smiski book */
+    .smiski-push {
+        position: relative;
+        display: inline-block;
+    }
+
+    #smiski-push-pfp {
+        width: 120px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .smiski-push-text {
+        position: fixed;
+        top: 57%;
+        right: 64%;
+        width: 250px;
+        background: rgb(255, 255, 255, 0.9);
+        border-radius: 8px;
+        padding: 14px 16px;
+        display: none;
+    }
+
+    .smiski-push-text .close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    .smiski-push.open .smiski-push-text {
+        display: block;
+    }
 }
 
-/* popup for smiski book */
-.smiski-book {
-    position: relative;
-    display: inline-block;
+
+/* SMISKI GARDENING*/
+@media {
+    #smiski-gardening {
+        position: fixed;
+        top: 74%;
+        left: 8.5%;
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+        transition: transform 120ms ease;
+    }
+
+    #smiski-gardening:hover {
+        transform: translateY(-3px);
+        scale: 1.1;
+    }
+
+    /* popup for smiski book */
+    .smiski-gardening {
+        position: relative;
+        display: inline-block;
+    }
+
+    #smiski-gardening-pfp {
+        width: 120px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .smiski-gardening-text {
+        position: fixed;
+        top: 57%;
+        left: 12%;
+        width: 250px;
+        background: rgb(255, 255, 255, 0.9);
+        border-radius: 8px;
+        padding: 14px 16px;
+        display: none;
+    }
+
+    .smiski-gardening-text .close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    .smiski-gardening.open .smiski-gardening-text {
+        display: block;
+    }
 }
 
-#smiski-book-pfp {
-    width: 135px;
-    height: auto;
-    margin-bottom: 10px;
+/* SMISKI NAP*/
+@media {
+    #smiski-nap {
+        position: fixed;
+        top: 69%;
+        right: 1%;
+        width: 200px;
+        height: auto;
+        cursor: pointer;
+        transition: transform 120ms ease;
+    }
+
+    #smiski-nap:hover {
+        transform: translateY(-3px);
+        scale: 1.1;
+    }
+
+    /* popup for smiski book */
+    .smiski-nap {
+        position: relative;
+        display: inline-block;
+    }
+
+    #smiski-nap-pfp {
+        width: 120px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .smiski-nap-text {
+        position: fixed;
+        top: 57%;
+        right: 9%;
+        width: 250px;
+        background: rgb(255, 255, 255, 0.9);
+        border-radius: 8px;
+        padding: 14px 16px;
+        display: none;
+    }
+
+    .smiski-nap-text .close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    .smiski-nap.open .smiski-nap-text {
+        display: block;
+    }
 }
 
-.smiski-book-text {
-    position: fixed;
-    top: 20%;
-    right: 46%;
-    width: 250px;
-    background: rgb(255,255,255,0.9);
-    border-radius: 8px;
-    padding: 14px 16px;
-    display: none; 
+
+
+/* SMISKI UNDERPANTS*/
+@media {
+    #smiski-underpants {
+        position: fixed;
+        top: 66%;
+        right: 26%;
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+        transition: transform 120ms ease;
+    }
+
+    #smiski-underpants:hover {
+        transform: translateY(-3px);
+        scale: 1.1;
+    }
+
+    /* popup for smiski book */
+    .smiski-underpants {
+        position: relative;
+        display: inline-block;
+    }
+
+    #smiski-underpants-pfp {
+        width: 120px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .smiski-underpants-text {
+        position: fixed;
+        top: 57%;
+        right: 29%;
+        width: 250px;
+        background: rgb(255, 255, 255, 0.9);
+        border-radius: 8px;
+        padding: 14px 16px;
+        display: none;
+    }
+
+    .smiski-underpants-text .close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    .smiski-underpants.open .smiski-underpants-text {
+        display: block;
+    }
 }
-
-.smiski-book-text .close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    font-size: 1.2rem;
-}
-
-.smiski-book.open .smiski-book-text {
-    display: block;
-}
-
-
-#smiski-push {
-    position: fixed;
-    top: 66%;
-    right: 59.6%;
-    width: 93px; 
-    height: auto;
-    cursor: pointer;
-    transition: transform 120ms ease;
-}
-
-#smiski-push:hover {
-    transform: translateY(-3px);
-    scale: 1.1;
-}
-
-/* popup for smiski book */
-.smiski-push {
-    position: relative;
-    display: inline-block;
-}
-
-#smiski-push-pfp {
-    width: 120px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.smiski-push-text {
-    position: fixed;
-    top: 57%;
-    right: 66%;
-    width: 250px;
-    background: rgb(255,255,255,0.9);
-    border-radius: 8px;
-    padding: 14px 16px;
-    display: none; 
-}
-
-.smiski-push-text .close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    font-size: 1.2rem;
-}
-
-.smiski-push.open .smiski-push-text {
-    display: block;
-}
-

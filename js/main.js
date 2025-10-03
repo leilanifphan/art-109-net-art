@@ -56,3 +56,46 @@ smiskiPushClose?.addEventListener('click', () => {
 });
 
 
+
+// toggle smiski-gardening popup
+const smiskiGardeningImg = document.querySelector('#smiski-gardening');
+const smiskiGardeningWrapper = document.querySelector('.smiski-gardening');
+const smiskiGardeningClose = document.querySelector('.smiski-gardening-text .close-btn');
+
+smiskiGardeningImg?.addEventListener('click', () => {
+	smiskiGardeningWrapper?.classList.toggle('open');
+});
+
+smiskiGardeningClose?.addEventListener('click', () => {
+	smiskiGardeningWrapper?.classList.remove('open');
+});
+
+
+
+// toggle smiski-nap popup
+const smiskiNapImg = document.querySelector('#smiski-nap');
+const smiskiNapWrapper = document.querySelector('.smiski-nap');
+const smiskiNapClose = document.querySelector('.smiski-nap-text .close-btn');
+
+smiskiNapImg?.addEventListener('click', () => {
+	smiskiNapWrapper?.classList.toggle('open');
+});
+
+smiskiNapClose?.addEventListener('click', () => {
+	smiskiNapWrapper?.classList.remove('open');
+});
+
+
+
+// toggle smiski-underpants popup
+const smiskiUnderpantsImg = document.querySelector('#smiski-underpants');
+const smiskiUnderpantsWrapper = document.querySelector('.smiski-underpants');
+const smiskiUnderpantsClose = document.querySelector('.smiski-underpants-text .close-btn');
+
+smiskiUnderpantsImg?.addEventListener('click', () => {
+	smiskiUnderpantsWrapper?.classList.toggle('open');
+});
+
+smiskiUnderpantsClose?.addEventListener('click', () => {
+	smiskiUnderpantsWrapper?.classList.remove('open');
+});
