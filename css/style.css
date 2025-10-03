@@ -33,8 +33,8 @@ body {
 /* Remember to add background or something*/
 header {
     position: fixed;
-    top: 2%;
-    left: 1%;
+    top: 25px;
+    left: 25px;
     z-index: 20;
     width: auto;
     text-align: left;
@@ -71,9 +71,8 @@ header {
 /* Maybe get rid of this*/
 .smiski-counter {
     position: fixed;
-    top: 10%;
-    left: 1%;
-    z-index: 20;
+    top: 110px;
+    left: 25px;
     width: auto;
     text-align: right;
     padding: 10px 30px;
@@ -87,8 +86,8 @@ header {
 .shelf-btn {
     color:white;
     position: fixed;
-    top: 2%;
-    right: 1%;
+    top: 25px;
+    right: 25px;
     margin-left: 16px;
     width: 60px;
     height: 60px;
@@ -166,12 +165,12 @@ header {
 
 #smiski-book {
     position: fixed;
-    top: 21%;
-    right: 43%;
+    top: 310px;
+    right: 1100px;
     width: 30px; 
     height: auto;
     cursor: pointer;
-    transition: transform 120ms ease, box-shadow 120ms ease;
+    transition: transform 120ms ease;
 }
 
 #smiski-book:hover {
@@ -187,11 +186,10 @@ header {
 
 .smiski-book-text {
     position: fixed;
-    top: 15%;
-    right: 48%;
+    top: 280px;
+    right: 1200px;
     width: 320px;
     background: rgb(255,255,255,0.9);
-    box-shadow: 0 10px 30px rgb(0,0,0,0.18);
     border-radius: 8px;
     padding: 14px 16px;
     display: none; 
@@ -209,4 +207,73 @@ header {
 
 .smiski-book.open .smiski-book-text {
     display: block;
+}
+
+
+#smiski-push {
+    position: fixed;
+    top: 865px;
+    right: 1525px;
+    width: 93px; 
+    height: auto;
+    cursor: pointer;
+    transition: transform 120ms ease;
+}
+
+#smiski-push:hover {
+    transform: translateY(-3px);
+    scale: 1.1;
+}
+
+/* popup for smiski book */
+.smiski-push {
+    position: relative;
+    display: inline-block;
+}
+
+#smiski-push-pfp {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.smiski-push-text {
+    position: fixed;
+    top: 700px;
+    right: 1700px;
+    width: 320px;
+    background: rgb(255,255,255,0.9);
+    border-radius: 8px;
+    padding: 14px 16px;
+    display: none; 
+}
+
+.smiski-push-text .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.smiski-push.open .smiski-push-text {
+    display: block;
+}
+
+/* Unified small text for smiski popups: only affect <p> inside the popup boxes */
+.smiski-text p {
+    font-size: 1.2rem; /* ~12px assuming 1rem = 10px */
+    text-align: left;
+    margin: 0.4rem 0;
+    line-height: 1.4;
+}
+
+/* Headings inside smiski popups: only target h3 elements and center them */
+.smiski-text h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
 }

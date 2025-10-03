@@ -10,24 +10,6 @@ closeBtn?.addEventListener('click', () => {
 });
 
 
-document.querySelector('#smiski-book').addEventListener('click', function() {
-
-});
-
-// toggle smiski popup
-const smiskiImg = document.querySelector('#smiski-book');
-const smiskiWrapper = document.querySelector('.smiski-book');
-const smiskiCloseBook = document.querySelector('.smiski-book-text .close-btn');
-
-smiskiImg?.addEventListener('click', () => {
-	smiskiWrapper?.classList.toggle('open');
-});
-
-smiskiCloseBook?.addEventListener('click', () => {
-	smiskiWrapper?.classList.remove('open');
-});
-
-
 // toggle instructions popup
 const instructionsBtn = document.querySelector('.instructions-btn');
 const instructionsWrapper = document.querySelector('.instructions');
@@ -44,3 +26,33 @@ instructionsCloseBtn?.addEventListener('click', () => {
 		instructionsWrapper.style.display = 'none';
 	}
 });
+
+
+
+// toggle smiski-book popup
+const smiskiImg = document.querySelector('#smiski-book');
+const smiskiWrapper = document.querySelector('.smiski-book');
+const smiskiCloseBook = document.querySelector('.smiski-book-text .close-btn');
+
+smiskiImg?.addEventListener('click', () => {
+	smiskiWrapper?.classList.toggle('open');
+});
+
+smiskiCloseBook?.addEventListener('click', () => {
+	smiskiWrapper?.classList.remove('open');
+});
+
+// toggle smiski-push popup
+const smiskiPushImg = document.querySelector('#smiski-push');
+const smiskiPushWrapper = document.querySelector('.smiski-push');
+const smiskiPushClose = document.querySelector('.smiski-push-text .close-btn');
+
+smiskiPushImg?.addEventListener('click', () => {
+	smiskiPushWrapper?.classList.toggle('open');
+});
+
+smiskiPushClose?.addEventListener('click', () => {
+	smiskiPushWrapper?.classList.remove('open');
+});
+
+
