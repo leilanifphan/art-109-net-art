@@ -4,40 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smiski Hunt</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Smiski Shelf</title>
+    <link rel="stylesheet" href="css/shelf.css">
 </head>
 
-
-<body class="main">
+<body>
     <header>
-        <h1>Smiski Hunt</h1>
-        <button class="instructions-btn" alt="Instructions">?</button>
+        <h1>Smiski Shelf</h1>
     </header>
 
-    <!-- Maybe get rid of this-->
-    <section class="smiski-counter">
-        <h3>Smiskis Found: 0/10</h3>
+    <section>
+        <a href="index.html" class="shelf-back-btn" role="button" aria-label="Back to main page">←</a>
     </section>
 
-    <section class="shelf">
-        <a href="shelf.html" class="shelf-btn" role="button" aria-label="Open shelf">→</a>
-    </section>
-
-    <main>
-        <div class="instructions">
-            <div class="instructions-bg">
-                <button class="close-btn" alt="Close instructions">✕</button>
-                <h2>Instructions</h2>
-                <p>Click on the Smiski figures hidden around the room to find them all!</p>
-                <p>There are 10 Smiski figures to find.</p>
-                <p>Click the icon in the top right to keep track of the Smiskis you find.</p>
-                <p>Good luck!</p>
-            </div>
-        </div>
+    <img src="imgs/lustigt-shelf.png" alt="Lustigt shelf background" id="shelf-bg">
 
 
-        <section class="smiski-collection" alt="Smiski images">
+
+
+ <section class="smiski-shelf" alt="Smiski images">
             <div class="smiski-book">
                 <img src="imgs/smiski-book.png" alt="Smiski book" id="smiski-book">
                 <div class="smiski-book-text smiski-text">
@@ -54,7 +39,7 @@
             </div>
 
             <div class="smiski-push" alt="smiski push">
-                <img src="imgs/smiski-push.png" alt="Smiski push" id="smiski-push">
+                <img src="imgs/smiski-push-reg.png" alt="Smiski push" id="smiski-push">
                 <div class="smiski-push-text smiski-text">
                     <button class="close-btn" alt="Close">✕</button>
                     <h3>Smiski Pushing</h3>
@@ -68,7 +53,7 @@
 
 
             <div class="smiski-gardening" alt="smiski gardening">
-                <img src="imgs/smiski-gardening.png" alt="Smiski gardening" id="smiski-gardening">
+                <img src="imgs/smiski-gardening-reg.png" alt="Smiski gardening" id="smiski-gardening">
                 <div class="smiski-gardening-text smiski-text">
                     <button class="close-btn" alt="Close">✕</button>
                     <h3>Smiski Gardening</h3>
@@ -146,7 +131,7 @@
 
 
             <div class="smiski-daydreaming" alt="smiski daydreaming">
-                <img src="imgs/smiski-daydreaming.png" alt="Smiski daydreaming" id="smiski-daydreaming">
+                <img src="imgs/smiski-daydreaming-reg.png" alt="Smiski daydreaming" id="smiski-daydreaming">
                 <div class="smiski-daydreaming-text smiski-text">
                     <button class="close-btn" alt="Close">✕</button>
                     <h3>Smiski Daydreaming</h3>
@@ -193,7 +178,7 @@
 
 
         </section>
-    </main>
+
 
 
     <script src="js/main.js"></script>

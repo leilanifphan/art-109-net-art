@@ -99,3 +99,78 @@ smiskiUnderpantsImg?.addEventListener('click', () => {
 smiskiUnderpantsClose?.addEventListener('click', () => {
 	smiskiUnderpantsWrapper?.classList.remove('open');
 });
+
+
+
+
+// toggle smiski-briefcase popup
+const smiskiBriefcaseImg = document.querySelector('#smiski-briefcase');
+const smiskiBriefcaseWrapper = document.querySelector('.smiski-briefcase');
+const smiskiBriefcaseClose = document.querySelector('.smiski-briefcase-text .close-btn');
+
+smiskiBriefcaseImg?.addEventListener('click', () => {
+	smiskiBriefcaseWrapper?.classList.toggle('open');
+});
+
+smiskiBriefcaseClose?.addEventListener('click', () => {
+	smiskiBriefcaseWrapper?.classList.remove('open');
+});
+
+
+
+// toggle smiski-dumbbell popup
+const smiskiDumbbellImg = document.querySelector('#smiski-dumbbell');
+const smiskiDumbbellWrapper = document.querySelector('.smiski-dumbbell');
+const smiskiDumbbellClose = document.querySelector('.smiski-dumbbell-text .close-btn');
+
+smiskiDumbbellImg?.addEventListener('click', () => {
+	smiskiDumbbellWrapper?.classList.toggle('open');
+});
+
+smiskiDumbbellClose?.addEventListener('click', () => {
+	smiskiDumbbellWrapper?.classList.remove('open');
+});
+
+
+
+// toggle smiski-daydreaming popup
+const smiskiDaydreamingImg = document.querySelector('#smiski-daydreaming');
+const smiskiDaydreamingWrapper = document.querySelector('.smiski-daydreaming');
+const smiskiDaydreamingClose = document.querySelector('.smiski-daydreaming-text .close-btn');
+
+smiskiDaydreamingImg?.addEventListener('click', () => {
+	smiskiDaydreamingWrapper?.classList.toggle('open');
+});
+
+smiskiDaydreamingClose?.addEventListener('click', () => {
+	smiskiDaydreamingWrapper?.classList.remove('open');
+});
+
+
+// toggle smiski-peeking popup
+const smiskiPeekingImg = document.querySelector('#smiski-peeking');
+const smiskiPeekingWrapper = document.querySelector('.smiski-peeking');
+const smiskiPeekingClose = document.querySelector('.smiski-peeking-text .close-btn');
+
+smiskiPeekingImg?.addEventListener('click', () => {
+	smiskiPeekingWrapper?.classList.toggle('open');
+});
+
+smiskiPeekingClose?.addEventListener('click', () => {
+	smiskiPeekingWrapper?.classList.remove('open');
+});
+
+
+// toggle smiski-dali popup
+const smiskiDaliImg = document.querySelector('#smiski-dali');
+const smiskiDaliWrapper = document.querySelector('.smiski-dali');
+const smiskiDaliClose = document.querySelector('.smiski-dali-text .close-btn');
+
+smiskiDaliImg?.addEventListener('click', () => {
+	smiskiDaliWrapper?.classList.toggle('open');
+});
+
+smiskiDaliClose?.addEventListener('click', () => {
+	smiskiDaliWrapper?.classList.remove('open');
+});
+
