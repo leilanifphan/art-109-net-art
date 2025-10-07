@@ -37,7 +37,7 @@ header {
     padding: 20px;
     background: rgb(208, 217, 160);
     color: rgb(252, 255, 233);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 2rem;
 }
 
@@ -121,7 +121,32 @@ body {
 
 
 
+h1 {
+        font-family: 'Instrument Serif', sans-serif;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+h2 {
+    font-family: 'Instrument Serif', sans-serif;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgb(41, 99, 40);
+}
+
+p {
+    font-family: 'Instrument Serif', sans-serif;
+}
+
 .smiski-text p {
+    font-family: 'Instrument Serif', sans-serif;
     font-size: 1.3rem;
     text-align: center;
     margin: 0.4rem 0;
@@ -129,7 +154,14 @@ body {
 }
 
 .smiski-text h3 {
-    font-size: 1.6rem;
+    font-family: 'Instrument Serif', sans-serif;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgb(41, 99, 40);
     text-align: center;
     margin-top: 0.2rem;
     margin-bottom: 0.6rem;
@@ -201,9 +233,9 @@ body {
 @media {
     #smiski-push {
         position: fixed;
-        top: 66%;
-        right: 59.6%;
-        width: 93px;
+        top: 46%;
+        right: 33%;
+        width: 350px;
         height: auto;
         cursor: pointer;
         transition: transform 120ms ease;
@@ -227,13 +259,14 @@ body {
 
     .smiski-push-text {
         position: fixed;
-        top: 57%;
-        right: 50%;
+        top: 47%;
+        right: 28%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
         padding: 14px 16px;
         display: none;
+        z-index: 10;
     }
 
     .smiski-push-text .close-btn {
@@ -256,9 +289,9 @@ body {
 @media {
     #smiski-gardening {
         position: fixed;
-        top: 74%;
-        left: 8.5%;
-        width: 50px;
+        top: 59.5%;
+        left: 35%;
+        width: 125px;
         height: auto;
         cursor: pointer;
         transition: transform 120ms ease;
@@ -283,12 +316,13 @@ body {
     .smiski-gardening-text {
         position: fixed;
         top: 57%;
-        left: 12%;
+        left: 25%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
         padding: 14px 16px;
         display: none;
+        z-index: 10;
     }
 
     .smiski-gardening-text .close-btn {
@@ -310,9 +344,9 @@ body {
 @media {
     #smiski-nap {
         position: fixed;
-        top: 69%;
-        right: 1%;
-        width: 200px;
+        top: 34.5%;
+        left: 37%;
+        width: 325px;
         height: auto;
         cursor: pointer;
         transition: transform 120ms ease;
@@ -336,13 +370,14 @@ body {
 
     .smiski-nap-text {
         position: fixed;
-        top: 57%;
-        right: 9%;
+        top: 38%;
+        left: 47%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
         padding: 14px 16px;
         display: none;
+        z-index: 10;
     }
 
     .smiski-nap-text .close-btn {
@@ -366,9 +401,9 @@ body {
 @media {
     #smiski-underpants {
         position: fixed;
-        top: 66%;
-        right: 26%;
-        width: 50px;
+        top: 20%;
+        right: 35%;
+        width: 80px;
         height: auto;
         cursor: pointer;
         transition: transform 120ms ease;
@@ -392,13 +427,14 @@ body {
 
     .smiski-underpants-text {
         position: fixed;
-        top: 57%;
-        right: 29%;
+        top: 16%;
+        right: 25%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
         padding: 14px 16px;
         display: none;
+        z-index: 10;
     }
 
     .smiski-underpants-text .close-btn {
@@ -421,9 +457,9 @@ body {
 @media {
     #smiski-briefcase {
         position: fixed;
-        top: 40.5%;
-        right: 30%;
-        width: 135px;
+        top: 35%;
+        left: 25%;
+        width: 250px;
         height: auto;
         cursor: pointer;
         transition: transform 120ms ease;
@@ -447,13 +483,14 @@ body {
 
     .smiski-briefcase-text {
         position: fixed;
-        top: 40%;
-        right: 35%;
+        top: 35%;
+        left: 17%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
         padding: 14px 16px;
         display: none;
+        z-index: 10;
     }
 
     .smiski-briefcase-text .close-btn {
@@ -477,11 +514,10 @@ body {
 @media {
     #smiski-dumbbell {
         position: fixed;
-        top: 54%;
-        left: 22%;
-        width: 75px;
+        top: 29%;
+        left: 37%;
+        width: 175px;
         height: auto;
-        opacity: 0.65;
         cursor: pointer;
         transition: transform 120ms ease;
     }
@@ -504,8 +540,8 @@ body {
 
     .smiski-dumbbell-text {
         position: fixed;
-        top: 50%;
-        left: 12%;
+        top: 25%;
+        left: 28%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
@@ -534,9 +570,9 @@ body {
 @media {
     #smiski-daydreaming {
         position: fixed;
-        top: 63%;
-        left: 25%;
-        width: 100px;
+        top: 50%;
+        left: 45%;
+        width: 150px;
         height: auto;
         cursor: pointer;
         transition: transform 120ms ease;
@@ -560,13 +596,14 @@ body {
 
     .smiski-daydreaming-text {
         position: fixed;
-        top: 60%;
-        left: 15%;
+        top: 45%;
+        left: 35%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
         padding: 14px 16px;
         display: none;
+        z-index: 10;
     }
 
     .smiski-daydreaming-text .close-btn {
@@ -589,9 +626,9 @@ body {
 @media {
     #smiski-peeking {
         position: fixed;
-        top: 63%;
-        right: 40%;
-        width: 100px;
+        top: 22%;
+        right: 44%;
+        width: 200px;
         height: auto;
         cursor: pointer;
         transition: transform 120ms ease;
@@ -615,13 +652,14 @@ body {
 
     .smiski-peeking-text {
         position: fixed;
-        top: 60%;
-        right: 44%;
+        top: 25%;
+        right: 35%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
         padding: 14px 16px;
         display: none;
+        z-index: 10;
     }
 
     .smiski-peeking-text .close-btn {
@@ -645,10 +683,9 @@ body {
     #smiski-dali {
         position: fixed;
         top: 23%;
-        left: 23%;
-        width: 125px;
+        left: 45%;
+        width: 325px;
         height: auto;
-        opacity: 0.65;
         cursor: pointer;
         transition: transform 120ms ease;
     }
@@ -671,13 +708,14 @@ body {
 
     .smiski-dali-text {
         position: fixed;
-        top: 28%;
-        left: 13%;
+        top: 15%;
+        left: 37%;
         width: 250px;
         background: rgb(255, 255, 255, 0.9);
         border-radius: 8px;
         padding: 14px 16px;
         display: none;
+        z-index: 10;
     }
 
     .smiski-dali-text .close-btn {

@@ -68,20 +68,7 @@ header {
 }
 
 
-/* Maybe get rid of this*/
-.smiski-counter {
-    position: fixed;
-    top: 110px;
-    left: 25px;
-    width: auto;
-    text-align: right;
-    padding: 10px 30px;
-    border-radius: 10px;
-    background: rgb(255, 255, 255, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .shelf-btn {
     color: white;
@@ -164,8 +151,33 @@ header {
 }
 
 
+h1 {
+        font-family: 'Instrument Serif', sans-serif;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgb(41, 99, 40);
+}
+h2 {
+    font-family: 'Instrument Serif', sans-serif;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgb(41, 99, 40);
+}
+
+p {
+    font-family: 'Instrument Serif', sans-serif;
+}
 
 .smiski-text p {
+    font-family: 'Instrument Serif', sans-serif;
     font-size: 1.3rem;
     text-align: center;
     margin: 0.4rem 0;
@@ -173,13 +185,18 @@ header {
 }
 
 .smiski-text h3 {
-    font-size: 1.6rem;
+    font-family: 'Instrument Serif', sans-serif;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgb(41, 99, 40);
     text-align: center;
     margin-top: 0.2rem;
     margin-bottom: 0.6rem;
 }
-
-
 
 
 
@@ -525,7 +542,6 @@ header {
         left: 22%;
         width: 75px;
         height: auto;
-        opacity: 0.65;
         cursor: pointer;
         transition: transform 120ms ease;
     }
@@ -688,11 +704,10 @@ header {
 @media {
     #smiski-dali {
         position: fixed;
-        top: 23%;
+        top: 30%;
         left: 23%;
         width: 125px;
         height: auto;
-        opacity: 0.65;
         cursor: pointer;
         transition: transform 120ms ease;
     }
